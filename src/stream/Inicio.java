@@ -245,6 +245,38 @@ public class Inicio {
 		
 		// -------------------------------------------------------------------------------------------------------------------------------------
 		
+		
+		// findFirst 1
+		System.out.println("findFirst 1");
+										
+		Integer primeiroNumero1 = lista.stream()
+				.findFirst().orElse(null);
+		System.out.println(primeiroNumero1);
+
+		System.out.println("---");
+		
+				
+		// -------------------------------------------------------------------------------------------------------------------------------------
+		
+		
+		// findFirst 2
+		System.out.println("findFirst 2");
+										
+		Integer primeiroNumero2 = lista.stream()
+				.findFirst().orElse(10);
+		System.out.println(primeiroNumero2);
+
+		System.out.println("---");
+		
+		
+		// -------------------------------------------------------------------------------------------------------------------------------------
+		
+		
+		
+		
+		
+		
+		
 
 		// 3. Integer Stream com sum
 		int numero = IntStream
